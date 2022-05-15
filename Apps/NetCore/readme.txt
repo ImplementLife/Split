@@ -1,0 +1,1 @@
+Folder for the parent project for Mobile and Desktop apps
