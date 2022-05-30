@@ -1,11 +1,7 @@
-import React from 'react';
 import { Switch, Redirect, Route } from 'react-router-dom';
-import {publicRoutes, privateRoutes} from '../Router/Router';
+import {publicRoutes, privateRoutes} from './Router';
 
-export interface IAppRouterProps {
-}
-
-function AppRouter (props: IAppRouterProps) {
+function AppRouter () {
 return (
     <Switch>
         {privateRoutes.map(route =>
