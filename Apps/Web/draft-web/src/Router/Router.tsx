@@ -1,5 +1,5 @@
-import LogIn from "./Pages/LogIn";
-import Main from "./Pages/Main";
+import LogIn from "../Components/Pages/LogIn";
+import Main from "../Components/Pages/Main";
 
 export const publicRoutes = [
     {path: '/login', component: LogIn, exact:true}
